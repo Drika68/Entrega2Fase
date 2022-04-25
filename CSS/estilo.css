@@ -1,0 +1,358 @@
+@font-face{
+    font-family: 'OpenDyslexic';
+    src: url(../OpenDyslexic-Bold.otf) format('opentype') ;
+}
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'OpenDyslexic', 'Times New Roman', serif;
+    background-color: #FFFFE0;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.658);
+    top: 0%;
+    padding: 0;
+    text-indent: 14px
+}
+a{
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: 700;
+    color: #000;
+}
+a:focus{
+    outline: 1px solid #ccc;
+}
+a:focus, a:hover{
+    background: #ccc;
+    color: #111;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.329), rgba(247, 247, 247, 0.158)),
+    url(../IMG/Captura\ de\ tela\ 2022-04-21\ 214613.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    padding-bottom: 10px;
+}
+h3{
+    padding-bottom: 10px;
+}
+.hero-link {
+    font-size: 3vmin;
+    border: 1px solid #000000ce;
+    padding: 12px;
+    border-radius: 70px;
+    background-color: #000;
+    font-weight: 700; /*Deixa tipo negrito*/
+    transition: 5s;
+    color: aliceblue;
+}
+.nav-top ul{
+    display: flex;
+
+}
+ul{
+    list-style: none;
+}
+
+.bus{
+    width: 100%;
+    height: 135px;
+    padding-top: 20px;
+    background-color: rgba(141, 141, 141, 0.26);
+}
+.form{
+    padding-top: 30px;
+}
+.form-inline{
+    display: inline-block;
+}
+.filt{
+    font-family: 'OpenDyslexic', 'Times New Roman', serif;
+    background-color: #e49928ab;
+    border-radius: 30px;
+    margin-left: 3px;
+
+}
+p label {
+    display: block;
+
+}
+.monu{
+    width: 60%;
+    height: 20px;
+    margin-left: 100px;
+}
+.led{
+    margin-left: 100px;
+}
+.cid{
+    width: 120%;
+    height: 26px;
+    margin-left: 20px;
+}
+.busq{
+    margin-left: 50px;
+}
+.busque{
+    margin-left: 55px;
+    width: 65%;
+    height: 26px;
+}
+.buscar{
+    margin-left: -10px;
+    height: 24px;
+    font-size: 9px;
+    font-family: 'OpenDyslexic', 'Times New Roman', serif;
+}
+.val{
+    width: 100%;
+    margin-left: 20px;
+}
+.rest{
+    width: 60%;
+    height: 20px;
+    margin-left: 110px;
+}
+.cidRes{
+    width: 120%;
+    height: 26px;
+    margin-left: 30px;
+}
+.corp{
+    width: 30%;
+    height: 700px;
+    margin-left: 27px;
+    margin-top: 20px;
+    display: inline-block;
+    border-style: solid;
+    background-color: #ffff;
+}
+.paragra{
+    color: #9400D3;
+}
+.img{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/cristo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;  
+}
+.img2{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/VELHÃO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.para{
+    font-size: 15px;
+}
+.img3{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/mirante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.parag{
+    width: 100%;
+    height: 85px;
+    margin-top: 4px;
+}
+.avali{
+    width: 100%;
+    height:110px;
+    margin-top: 169px;
+}
+textarea{
+    width: 90%;
+    height: 45px;
+    resize: none;
+    margin-left: 2px;
+    margin-top: -10px;
+}
+.but{
+    width: 150px;
+    height: 30px;
+    margin-bottom: 30px;
+    font-family: 'OpenDyslexic', 'Times New Roman', serif;
+    font-size: 10px;
+}
+.img4{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/opera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img5{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/ipiranga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img6{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/catedral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img7{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/Terraco-italia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img8{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/dom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img9{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/fasano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img10{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/mocot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img11{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/bella\ paullista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img12{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/tatini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img13{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/bar\ brahma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img14{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/veloso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img15{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/d-edge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img16{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/SKYE\ BAR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img17{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/vila\ country.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
+.img18{
+    width: 60%;
+    height: 300px;
+    margin-left: 79px;
+    margin-top: 15px;
+    background-image: url(../IMG/morrison.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid ;
+}
